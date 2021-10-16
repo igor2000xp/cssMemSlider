@@ -117,34 +117,82 @@ h2 {
   grid-row: 2/3;
 }
 
+.quotes {
+  color: #fff;
+}
+
 .grid-control {
   grid-column: 2/3;
   grid-row: 2/3;
   border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
+.control-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+  align-items: center;
+  width: 100px;
+}
+
+.control-wrapper input {
+  cursor: pointer;
+}
+
+.slides-container {
+  height: 100%;
+  width: calc(4*100%);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+
+.slide {
+  height: 100%;
+  width: calc(0.94 * var(--content-width) + 3px);
+}
+
+.slide1 {
+
+}
+
+.slide2 {
+
+}
+
+.slide3 {
+
+}
+
+
+
+
 /* ! --HEADER----------------- */
-.header {
+/* .header {
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 50;
+  z-index: 50; */
   /* box-sizing: content-box; */
-  background-color: #030303;
+  /* background-color: #030303; */
   /* border: 1px solid red; */
-}
+/* }
 
-.header__container {
+.header__container { */
   /* max-width: 1440px; */
-  max-width: var(--content-width);
+  /* max-width: var(--content-width);
   min-height: 150px;
   top: 0px;
-  margin: 0 auto;
+  margin: 0 auto; */
   /* border: 1px solid red; */
   /* From museum-hints.md */
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
