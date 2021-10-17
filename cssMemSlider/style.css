@@ -260,9 +260,14 @@ label[for="slide1"] input:checked + .stlradio:before {
   transition-duration: 2s;
   color: #fff;
   overflow: hidden;
-  
-}
 
+}
+.slide1,
+.slide2,
+.slide3,
+.slide4 {
+  overflow-x: hidden;
+}
 
 #slide1:checked ~ .slides-wrapper .slides-container{
   transform: translateX(0%);
